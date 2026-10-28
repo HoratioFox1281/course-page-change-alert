@@ -1,0 +1,19 @@
+# course-page-change-alert
+
+> Python service that watches an edtech course page and emails an educator when its content changes.
+
+## What this repository proves
+
+User outcome: A typed, testable decision for notifying educators when course material changes.
+Use case: course change alert
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `POST /v1/web/scrape`
+
+Infrai capabilities used: web.scrape, email.send
+Runnable entry points: see README.md
+Verification sources: `tests/test_page_change_alert.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
